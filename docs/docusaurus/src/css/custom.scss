@@ -10,6 +10,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 /* You can override the default Infima variables here. */
+@import "tabs.scss";
+
 :root {
     --ifm-font-color-base: #404041;
     --ifm-navbar-link-color: #404041;
@@ -311,19 +313,6 @@ table.borderless tr:nth-child(2n) {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-}
-
-.tabs-container .margin-vert--md{
-    margin-top: 0 !important;
-}
-
-
-div[role="tabpanel"]{
-   --ifm-code-background: var(--ifm-alert-background-color-highlight);
-    border-radius: 0;
-    box-shadow:none;
-    border-top: 0;
-    padding: 0;
 }
 
 .tooltip {
